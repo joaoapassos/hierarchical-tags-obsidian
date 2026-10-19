@@ -1,0 +1,22 @@
+{
+	"name": "hierarchical-tags-obsidian",
+	"version": "0.0.0",
+	"description": "Automatically manage hierarchical Obsidian tags based on note locations.",
+	"author": "joaoapassos",
+	"license": "MIT",
+	"private": true,
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs --watch",
+		"build": "npm run typecheck && node esbuild.config.mjs",
+		"typecheck": "tsc --noEmit",
+		"check": "biome check .",
+		"check:fix": "biome check --write ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.0.0",
+		"esbuild": "^0.25.0",
+		"obsidian": "^1.8.7",
+		"typescript": "^5.8.0"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"files": { "includes": ["**", "!**/main.js", "!**/package-lock.json"] },
+	"formatter": { "enabled": true },
+	"linter": { "enabled": true, "rules": { "preset": "recommended" } },
+	"assist": { "actions": { "source": { "organizeImports": "on" } } }
+}

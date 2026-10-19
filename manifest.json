@@ -1,0 +1,9 @@
+{
+	"id": "hierarchical-tags-obsidian",
+	"name": "Hierarchical Tags",
+	"version": "0.0.0",
+	"minAppVersion": "1.5.7",
+	"description": "Automatically manage hierarchical Obsidian tags based on note locations.",
+	"author": "joaoapassos",
+	"isDesktopOnly": false
+}
